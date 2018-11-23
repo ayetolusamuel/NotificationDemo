@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "412231578921",
+    "firebase_url": "https://akwe-e-commerce.firebaseio.com",
+    "project_id": "akwe-e-commerce",
+    "storage_bucket": "akwe-e-commerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412231578921:android:24240615c727826e",
+        "android_client_info": {
+          "package_name": "com.setnumd.technologies.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412231578921-0jkl7qdpodvbhvf6nbum5k2rhtmdg3kp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.setnumd.technologies.helloworld",
+            "certificate_hash": "c504eda0a7c4dc469218f973c777d0bbe540da23"
+          }
+        },
+        {
+          "client_id": "412231578921-7rma658bgmntca61nvn8dc9n8ukgrs7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC12EACJuGRpfPXQAhMXQ0jtzMjh-A86s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412231578921-7rma658bgmntca61nvn8dc9n8ukgrs7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412231578921:android:2e8d8d00a641c77d",
+        "android_client_info": {
+          "package_name": "com.setnumd.technologies.setnumde_commerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412231578921-3ed493lo96qq558qvaqiqj998vb332ii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.setnumd.technologies.setnumde_commerce",
+            "certificate_hash": "c504eda0a7c4dc469218f973c777d0bbe540da23"
+          }
+        },
+        {
+          "client_id": "412231578921-7rma658bgmntca61nvn8dc9n8ukgrs7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC12EACJuGRpfPXQAhMXQ0jtzMjh-A86s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412231578921-7rma658bgmntca61nvn8dc9n8ukgrs7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
