@@ -40,9 +40,8 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
             Intent intent = new Intent(this,MyNotificationActivity.class);
             intent.putExtra("title",title);
             intent.putExtra("message",message);
-           // LocalBroadcastManager localBroadcastManager = LocalBroadcastManager.getInstance(this);
-           // localBroadcastManager.sendBroadcast(intent);
-
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
 
 
 

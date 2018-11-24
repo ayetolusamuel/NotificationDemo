@@ -33,7 +33,7 @@ public class MyNotificationActivity extends AppCompatActivity {
         textViewMessage = findViewById(R.id.textViewMessage);
 
 
-       // LocalBroadcastManager.getInstance(this).registerReceiver(mHandler, new IntentFilter("com.setnumd.technologies.helloworld"));
+        // LocalBroadcastManager.getInstance(this).registerReceiver(mHandler, new IntentFilter("com.setnumd.technologies.helloworld"));
 
         if (getIntent().getExtras() != null) {
             for (String keys : getIntent().getExtras().keySet()) {
@@ -48,25 +48,4 @@ public class MyNotificationActivity extends AppCompatActivity {
 
     }
 
-    public void ClckMe(View view) {
-        startActivity(new Intent(MyNotificationActivity.this, MyNotificationActivity.class));
-    }
-
-    private BroadcastReceiver mHandler = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            String title = intent.getStringExtra("title");
-            String message = intent.getStringExtra("message");
-            textViewTitle.setText(title);
-            textViewMessage.setText(message);
-
-        }
-    };
-
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        LocalBroadcastManager.getInstance(this).unregisterReceiver(mHandler);
-    }
 }
