@@ -28,7 +28,10 @@
 
 
         <activity android:name=".MyNotificationActivity"
-            android:parentActivityName=".MainActivity"/>
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:parentActivityName=".MainActivity"
+            android:launchMode="singleTop"/>
 
 
     </application>
